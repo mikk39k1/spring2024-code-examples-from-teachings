@@ -9,6 +9,7 @@
 # Write a function `create_dict` that takes two lists of the same length and returns a dictionary
 # where the elements of the first list are the keys, and the elements of the second list are the values.
 # e.g. create_dict(['a', 'b', 'c'], [1, 2, 3]) yields {'a': 1, 'b': 2, 'c': 3}
+#Hej
 def create_dict(keys, values):
     # +++your code here+++
     return 
