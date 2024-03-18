@@ -17,7 +17,7 @@ class Workspace:
     def make_move(board, direction):
         if direction == 'U':
             if board.bird.row > 0:
-                board.bird.row -1
+                board.bird.row -= 1
         elif direction == 'D':
             if board.bird.row < board.rows:
                 board.bird.row += 1
